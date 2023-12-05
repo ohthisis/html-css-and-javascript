@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment one</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        
+          <form>
+            <fieldset class="fields">
+                <!-- <legend>1</legend> -->
+                <h2 class="blog">Personal Survey Form</h2>
+                <fieldset class="sec-fields">
+                   <legend class="sec-blog">Personal Details</legend>
+                   <div class="input-group">
+                        <label>Name: </label>
+                        <input type="text" placeholder="Enter your name" id="contact-name" onkeyup="validateName()">
+                        <span id="name-error"></span>
+                   </div>
+                   <div class="input-group">
+                        <label>Address: </label>
+                        <input type="text" placeholder="Enter your Address" id="contact-name" onkeyup="validateName()">
+                        <span id="name-error"></span>
+                   </div>
+                   <div class="input-group">
+                        <label>Email: </label>
+                        <input type="text" placeholder="Enter your Email" id="contact-name" onkeyup="validateName()">
+                        <span id="name-error"></span>
+                   </div>
+                   <div class="input-group">
+                        <label>Number: </label>
+                        <input type="text" placeholder="Enter your Number" id="contact-name" onkeyup="validateName()">
+                        <span id="name-error"></span>
+                   </div>
+                   <h2>Please select your gender:</h2>
+                   <input type="radio" id="male" name="monster" value="M" />
+                   <label for="male">Male</label><br />
+                   <input type="radio" id="female" name="monster" value="F" />
+                   <label for="female">Female</label><br />
+                   <input type="radio" id="non-binary" name="monster" value="N" />
+                   <label for="non-binary">Non-binary</label><br />
+                   <input type="radio" id="prefer-not-to-say" name="monster" value="K" />
+                   <label for="prefer-not-to-say">prefer not to say</label><br />
+                   
+                </fieldset>
+                <fieldset class="field-rd">
+                    <legend class="sec-blog">Additional Information</legend>
+                    <div class="input-group">
+                        <label>Enter Your Background Information</label>
+                        <textarea rows="5" placeholder="Enter your message" id="contact-message" onkeyup="validateMessage()"></textarea>
+                        <span id="message-error"></span>
+                    </div>
+                </fieldset>
+            </fieldset>    
+          </form>
+    </div>
+</body>
+</html>
