@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="page-form">
+    <h2>Alert Box Page</h2>
+    <div class="header">
+        <div class="nav"><a href="index.html"><span class="alert">Alert</span><span class="alert">Box</span></a></div>
+        <div class="nav"><a href="todo.html">Todo</a></div>
+        <div class="nav"><a href="login.html">Form</a></div>
+    </div>
+
+    <div class="dialog">
+        <button type="submit" onclick="opendialog()">Open dialog</button>
+
+        <div class="got-it" id="got-it">
+            <h3>Payment Successful</h3>
+            <p>Your payment has been successfully submitted.we've sent <br>
+            you all the email with all the details of the order</p>
+            <button type="button" onclick="closedialog()">Got it,thanks!</button>
+       </div>
+    </div>
+   </div>
+ 
+   <script src="action.js"></script>
+</body>
+</html>

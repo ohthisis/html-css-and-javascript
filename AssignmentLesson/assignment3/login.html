@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="nav"><a href="index.html"><span class="alert">Alert</span><span class="alert">Box</span></a></div>
+        <div class="nav"><a href="todo.html">Todo</a></div>
+        <div class="nav"><a href="login.html">Form</a></div>
+    </div>
+    <div class="form-container">
+        <form action="#" class="login-box">
+            <h3>Login</h3>
+            <div class="field name">
+                <!-- name -->
+                <div>Name</div>
+                <div class="input-area">
+                    <input type="text" placeholder="" id="contact-name" onkeyup="validateName()">
+                </div>
+                <span id="name-error"></span>
+            </div>
+
+            <div class="field email">
+                <!-- email -->
+                <div>Email</div>
+                <div class="input-area">
+                    <input type="text" placeholder="" id="contact-email" onkeyup="validateEmail()">
+                </div>
+                <span id="email-error"></span>
+                
+            </div>
+            
+            <div class="field password">
+                <!-- password -->
+                <div>Password</div>
+                <div class="input-area">
+                    <input type="text" placeholder="" id="contact-password">
+                </div>
+                <span id="password-error"></span>
+                
+            </div>
+            
+            <input type="submit" value="Login" onclick="validForm()">
+            
+        </form>
+    </div>
+    <script src="action3.js"></script>
+</body>
+</html>

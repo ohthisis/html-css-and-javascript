@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.left-design {
+    width: 15%;
+    height: 100vh;
+    background-color: rgb(218, 218, 218);
+}
+
+.left {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(218, 218, 218);
+    border-bottom: 1px solid rgb(159, 149, 149);
+}
+
+.left-box {
+    width: 100%;
+    height: calc(100vh - 45px);
+    background-color: rgb(229, 227, 227);
+}
+
+.left-box ul li {
+    list-style: none;
+    padding: 0 15px;
+    padding-top: 20px;
+}
+.left-box ul a{
+    text-decoration: none;
+    color: black;
+}
+.left-box ul a:hover{
+    color: brown;
+}
+
+.images {
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
+}
+
+.dashboard {
+    display: flex;
+    align-items: center;
+    color: black;
+
+}
+
+.left-box ul li i {
+    padding-right: 10px;
+}
+
+/* right design */
+.right-design{
+    width: 100%;
+    height: 100vh;  
+}
+.right{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid rgb(236, 228, 228);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.down-arrow{
+    min-width: 140px;
+    height: 20px;
+    background-color:aliceblue;
+}
+.right-design .right h5{
+    padding-left: 15px;
+}
+.sec-dashboard{
+    color: rgb(43, 95, 226);
+}
+.right-design .right h5 i{
+    padding-right: 10px;
+}
+
+/* box */
+ .box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxs-o, .boxs-t, .boxs-th, .boxs-f {
+    width: 300px;
+    height: 80px;
+    border: 1px solid green;
+    border-radius: 5px;
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    
+}
+
+.handrad{
+    text-decoration: none;
+    color: #fff;
+}
+.boxs-o a:hover{
+    color: brown;
+}
+.boxs-o{ 
+    background: linear-gradient(90deg, rgba(0,23,113,0.6195728291316527) 0%, rgba(0,168,255,0.9360994397759104) 24%, rgba(0,168,255,0.35906862745098034) 92%);
+}
+.boxs-t{
+    background: rgb(255,59,0);
+    background: linear-gradient(90deg, rgba(255,59,0,0.6671918767507004) 58%, rgba(0,105,113,0.1966036414565826) 75%);
+}
+.boxs-th{
+    background: rgb(0,255,72);
+    background: linear-gradient(90deg, rgba(0,255,72,0.6083683473389356) 59%, rgba(0,113,32,0.28904061624649857) 78%);
+}
+.boxs-f{
+    background: rgb(255,141,0);
+    background: linear-gradient(90deg, rgba(255,141,0,0.6223739495798319) 81%, rgba(0,0,0,0.006127450980392135) 100%);
+}
+
+/* Admin   */
+.admin-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+button{
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    background: rgb(3, 3, 96);
+    color: white;
+}
+.span-page{
+    min-width: 150px;
+    height: 35px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(225, 221, 221);
+    border-radius: 5px;
+    gap: 10px;
+
+}
+.span-page i{
+    width: 17px;
+    height: 25px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background: #fff;
+}
+a{
+    text-decoration: none;
+}
+.sec-nav{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgb(243, 240, 240);
+}
+.grap img{
+    width: 30px;
+    height: 30px;
+}
+.grap{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 45px;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding: 30px 0;
+}
+
+.sec-nav div{
+    min-width: 150px;
+    height: 30px;
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 700;
+   
+}
+.grap div{
+    min-width: 150px;
+    height: 45px;
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grap div span{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    border-radius: 3px; 
+}
+.blue{
+    color: blue;
+    border: 1px solid blue;
+}
+.green{
+    color: green;
+    border: 1px solid green;
+}
+.red{
+    color: red;
+    border: 1px solid red;
+}

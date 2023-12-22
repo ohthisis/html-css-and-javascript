@@ -70,7 +70,7 @@ ul li::before{
     position: absolute;
     height: 28px;
     width: 28px;
-    border-radius: 50%;
+    border-radius: 100%;
     background-image: url(images/unchecked.png);
     background-size: cover;
     background-position: center;
@@ -96,6 +96,7 @@ ul li.checked::before{
     text-align: center;
     border-radius: 50%;
 }
+
 ul li span:hover{
     background: #edeef0;
 } 

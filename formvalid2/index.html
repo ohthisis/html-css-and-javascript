@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation 2</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/555003f756.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <header>Login Form</header>
+        <form action="#">
+            <div class="field name">
+                <!-- name -->
+                <div class="input-area">
+                    <input type="text" placeholder="Name" id="contact-name">
+                </div>
+                <div class="error name-error">Name must include a lower letter and a number</div>
+            </div>
+            
+            <!-- email -->
+            <div class="field email">
+                <div class="input-area">
+                    <input type="text" placeholder="Email Address">            
+                </div>
+                <div class="error error-txt">Email can't be blank</div>
+            </div>
+
+
+            <!-- password -->
+            <div class="field password">
+                <div class="input-area">
+                    <input type="text" placeholder="password">                  
+                </div>
+                <div class="error error-txt">Password can't be blank</div>
+            </div>
+            
+            <input type="submit" value="Login">
+        </form>
+        
+    </div>
+    <script src="action.js"></script>
+</body>
+</html>

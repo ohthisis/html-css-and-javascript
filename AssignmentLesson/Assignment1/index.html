@@ -12,7 +12,7 @@
         
           <form>
             <fieldset class="fields">
-                <!-- <legend>1</legend> -->
+                <legend class="one"><h4>1</h4></legend>
                 <h2 class="blog">Personal Survey Form</h2>
                 <fieldset class="sec-fields">
                    <legend class="sec-blog">Personal Details</legend>
@@ -49,12 +49,14 @@
                 </fieldset>
                 <fieldset class="field-rd">
                     <legend class="sec-blog">Additional Information</legend>
-                    <div class="input-group">
+                    <div>
                         <label>Enter Your Background Information</label>
-                        <textarea rows="5" placeholder="Enter your message" id="contact-message" onkeyup="validateMessage()"></textarea>
+                        <textarea  placeholder="Enter your background Information" id="contact-message" ></textarea>
                         <span id="message-error"></span>
                     </div>
                 </fieldset>
+                <div class="submit"><button>Submit</button></div>
+                <span id="submit-error"></span>
             </fieldset>    
           </form>
     </div>
